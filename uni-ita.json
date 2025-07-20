@@ -1,6 +1,58 @@
 {
-  "data": [
+  "_meta": {
+    "sources": [
+      {
+        "json": "UniAndTheHuntForTheLostHornIT",
+        "abbreviation": "UtHftLH-IT",
+        "full": "Alla Ricerca del Corno Perduto di Uni",
+        "authors": ["Amanda Hamon", "Stacey Allan", "Will Doyle"],
+        "convertedBy": ["<tuo-nome>"],
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/hybrid-entree-art/uthftlh-it/main/uthftlh-it.json",
+        "dateReleased": "2025-07-21",
+        "color": "8a3ea8"
+      }
+    ],
+    "dateAdded": 1721568000,
+    "dateLastModified": 1721568000,
+    "_dateLastModifiedHash": "a1b2c3d4e5",
+    "edition": "classic"
+  },
+  "adventure": [
     {
+      "name": "Alla Ricerca del Corno Perduto di Uni",
+      "id": "UniAndTheHuntForTheLostHornIT",
+      "source": "UniAndTheHuntForTheLostHornIT",
+      "group": "homebrew",
+      "published": "2025-07-21",
+      "level": { "start": 4, "end": 4 },
+      "cover": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/hybrid-entree-art/uthftlh-it/main/img/cover.webp"
+      },
+      "contents": [
+        {
+          "name": "Alla Ricerca del Corno Perduto di Uni",
+          "headers": [
+            "Introduzione",
+            { "header": "Uni in Pericolo", "depth": 1 },
+            { "header": "Dentro la sfera di cristallo", "depth": 1 },
+            "Conclusione",
+            "Appendice A: Regole",
+            "Appendice B: Creature",
+            "Personaggi precompilati",
+            "Incantesimi"
+          ]
+        }
+      ]
+    }
+  ],
+  "adventureData": [
+    {
+      "id": "UniAndTheHuntForTheLostHornIT",
+      "source": "UniAndTheHuntForTheLostHornIT",
+      "data": [
+        {
       "type": "section",
       "name": "Alla Ricerca del Corno Perduto di Uni",
       "id": "000",
@@ -1110,7 +1162,7 @@
           ]
         }
       ],
-      "id": "03d"
+            "id": "03d"
     }
   ]
 }
